@@ -1,0 +1,13 @@
+{
+    "fishing_key": "1",
+    "loot_key": "shift+right",
+    "bobber_detection_area": [400, 200, 800, 600],
+    "splash_threshold": 0.7,
+    "reaction_delay_min": 0.1,
+    "reaction_delay_max": 0.3,
+    "cast_delay": 2.0,
+    "timeout_duration": 30.0,
+    "enable_sound_detection": true,
+    "enable_visual_detection": true,
+    "auto_loot": true
+}
