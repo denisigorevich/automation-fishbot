@@ -1,6 +1,6 @@
 # WoW Fishing Bot - Educational Implementation
 
-## ⚠️ Educational Purpose Disclaimer
+## Educational Purpose Disclaimer
 
 **This fishing bot is created for educational purposes only to demonstrate:**
 - Computer vision techniques using OpenCV
@@ -17,14 +17,14 @@
 
 ## Features
 
-### 🎣 Core Functionality
+### Core Functionality
 - **Automated Fishing**: Casts fishing line and detects fish bites
 - **Multi-Detection**: Uses both visual and audio detection methods
 - **Smart Timing**: Human-like reaction delays and randomization
 - **Auto-Looting**: Automatically loots caught fish
 - **Statistics Tracking**: Monitors catch rates and efficiency
 
-### 🔍 Detection Methods
+### Detection Methods
 - **Visual Detection**: 
   - Motion detection using frame differencing
   - Color-based splash detection
@@ -34,7 +34,7 @@
   - Volume spike detection for splash sounds
 - **Configurable Areas**: Custom detection zones
 
-### 🖥️ User Interface
+### User Interface
 - **GUI Mode**: User-friendly graphical interface
 - **CLI Mode**: Command-line operation
 - **Setup Utility**: Easy configuration and calibration
@@ -268,4 +268,4 @@ This project is released under the MIT License for educational use only.
 
 ---
 
-*Happy Learning! 🎓*
+*Happy Learning!*
