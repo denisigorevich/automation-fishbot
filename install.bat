@@ -1,9 +1,9 @@
 @echo off
-REM WoW Fishbot Installation Script for Windows
+REM Fishbot Installation Script for Windows
 REM This script sets up the environment and installs dependencies
 
 echo ========================================
-echo WoW Fishbot - Educational Installation
+echo Fishbot - Educational Installation
 echo ========================================
 echo.
 

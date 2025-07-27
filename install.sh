@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# WoW Fishbot Installation Script for Linux
+# Fishbot Installation Script for Linux
 # This script sets up the environment and installs dependencies
 
 echo "========================================"
-echo "WoW Fishbot - Educational Installation"
+echo "Fishbot - Educational Installation"
 echo "========================================"
 echo ""
 

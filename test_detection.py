@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script for WoW Fishbot detection methods
+Test script for Fishbot detection methods
 This script helps verify that visual and audio detection are working correctly
 """
 

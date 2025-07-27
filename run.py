@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-WoW Fishbot Launcher
+Fishbot Launcher
 Simple menu to run different components of the fishbot
 """
 
@@ -15,7 +15,7 @@ class FishbotLauncher:
     
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("WoW Fishbot Launcher")
+        self.root.title("Fishbot Launcher")
         self.root.geometry("500x400")
         self.setup_gui()
     
@@ -26,7 +26,7 @@ class FishbotLauncher:
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
         # Title
-        title_label = ttk.Label(main_frame, text="WoW Fishbot Launcher", font=("Arial", 18, "bold"))
+        title_label = ttk.Label(main_frame, text="Fishbot Launcher", font=("Arial", 18, "bold"))
         title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
         
         # Educational disclaimer
@@ -184,7 +184,7 @@ def check_dependencies():
 
 def main():
     """Main entry point"""
-    print("WoW Fishbot Launcher")
+    print("Fishbot Launcher")
     print("===================")
     
     # Check dependencies

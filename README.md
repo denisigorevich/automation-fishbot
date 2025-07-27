@@ -91,7 +91,7 @@ python setup_detector.py
 ```
 
 **Setup Steps:**
-1. Position your WoW window
+1. Position your Game window
 2. Cast your fishing line to see the bobber
 3. Adjust the detection area to cover the water
 4. Take screenshots to verify the area

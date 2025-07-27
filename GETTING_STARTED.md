@@ -1,4 +1,4 @@
-# Getting Started with WoW Fishbot
+# Getting Started with Fishbot
 
 ## ⚠️ Important Notice
 **This fishbot is for educational purposes ONLY. Use responsibly and respect game terms of service.**

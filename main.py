@@ -373,7 +373,7 @@ class FishBotGUI:
     def __init__(self):
         self.bot = FishBot()
         self.root = tk.Tk()
-        self.root.title("WoW Fishing Bot - Educational")
+        self.root.title("Fishbot - Educational")
         self.root.geometry("600x500")
         self.setup_gui()
         
@@ -387,7 +387,7 @@ class FishBotGUI:
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
         
         # Title
-        title_label = ttk.Label(main_frame, text="WoW Fishing Bot", font=("Arial", 16, "bold"))
+        title_label = ttk.Label(main_frame, text="Fishbot", font=("Arial", 16, "bold"))
         title_label.grid(row=0, column=0, columnspan=2, pady=(0, 20))
         
         # Control buttons
@@ -538,7 +538,7 @@ Auto Loot: {'Enabled' if self.bot.config.auto_loot else 'Disabled'}
 
 def main():
     """Main entry point"""
-    print("WoW Fishing Bot - Educational Implementation")
+    print("Fishbot - Educational Implementation")
     print("==========================================")
     print("This bot is for educational purposes only.")
     print("Use responsibly and in accordance with game terms of service.")

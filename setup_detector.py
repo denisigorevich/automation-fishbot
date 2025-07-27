@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Setup script for WoW Fishbot - helps configure detection areas and capture templates
+Setup script for Fishbot - helps configure detection areas and capture templates
 """
 
 import cv2
@@ -17,7 +17,7 @@ class FishbotSetup:
     
     def __init__(self):
         self.root = tk.Tk()
-        self.root.title("WoW Fishbot Setup")
+        self.root.title("Fishbot Setup")
         self.root.geometry("800x600")
         
         self.detection_area = (400, 200, 800, 600)  # x, y, width, height
@@ -79,7 +79,7 @@ class FishbotSetup:
         instructions_frame = ttk.LabelFrame(main_frame, text="Instructions", padding="10")
         instructions_frame.grid(row=4, column=0, columnspan=3, sticky=(tk.W, tk.E), pady=(10, 0))
         
-        instructions_text = """1. Position your WoW window and cast your fishing line
+        instructions_text = """1. Position your Game window and cast your fishing line
 2. Adjust the detection area to cover the water where your bobber appears
 3. Take a screenshot to preview the area
 4. Capture the detection area when your bobber is visible
@@ -259,7 +259,7 @@ class FishbotSetup:
 
 def main():
     """Main entry point"""
-    print("WoW Fishbot Setup Utility")
+    print("Fishbot Setup Utility")
     print("========================")
     print("This utility helps you configure the fishbot detection areas and templates.")
     print()
