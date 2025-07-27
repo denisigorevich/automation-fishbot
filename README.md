@@ -1,6 +1,6 @@
-# WoW Fishing Bot - Educational Implementation
+# Fishing Bot - Educational Implementation
 
-## Educational Purpose Disclaimer
+## Educational Purpose Disclaimer. This project is intended for educational and research purposes only.
 
 **This fishing bot is created for educational purposes only to demonstrate:**
 - Computer vision techniques using OpenCV
