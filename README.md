@@ -53,7 +53,7 @@
 
 ```bash
 # Clone or download the project
-cd wow_fishbot
+cd fishbot
 
 # Install required packages
 pip install -r requirements.txt
@@ -208,7 +208,7 @@ logging.basicConfig(level=logging.DEBUG)
 ## File Structure
 
 ```
-wow_fishbot/
+fishbot/
 ├── main.py              # Main bot application
 ├── setup_detector.py    # Configuration utility
 ├── requirements.txt     # Python dependencies
